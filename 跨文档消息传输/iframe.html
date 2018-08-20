@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <script>
+        window.addEventListener("message",function(ev){
+            if(ev.origin !="http://Lulingniu"){ retutn; }
+            document.body.innerHTML="从"+ev.origin+"那里传来的消息。<br>\" "+ ev.data +" \"";
+            ev.source.postMessage("你好，这里是"+this.locatin.ev.origin);
+        },false)
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

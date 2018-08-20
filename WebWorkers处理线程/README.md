@@ -1,0 +1,2 @@
+求和运算.html:10 Uncaught DOMException: Failed to construct 'Worker': Script at 'file:///C:/Users/Administrator/Desktop/WebWorkers%E5%A4%84%E7%90%86%E7%BA%BF%E7%A8%8B/SumCalculate.js' cannot be accessed from origin 'null'.
+    at file:///C:/Users/Administrator/Desktop/WebWorkers%E5%A4%84%E7%90%86%E7%BA%BF%E7%A8%8B/%E6%B1%82%E5%92%8C%E8%BF%90%E7%AE%97.html:10:20
